@@ -1,2 +1,2 @@
 #!/bin/bash
-find . ! -path "*.sh" -type f -print
+find . ! -path "*.sh" -a ! -path "*.git*" -type f -print
