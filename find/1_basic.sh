@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f
+find . ! -path "*.sh" -type f -print
